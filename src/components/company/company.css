@@ -1,0 +1,50 @@
+.company_div{
+    padding-top: 3rem;
+    padding-bottom:3rem;
+    display:flex;
+    gap:2rem;
+    justify-content: space-between;
+    
+}
+.company_div h1{
+    color:white;
+}
+.company_div p{
+    color:white;
+}
+.company{
+    background-color:black;
+}
+input{
+    outline:none;
+    width:18rem;
+    border-radius: 10px;
+    padding:10px;
+}
+button{
+    border-color: none;
+}
+form{
+    display:flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+.form_paragraph{
+    margin-top: 2rem;
+}
+span{
+   color: #00df9a;
+}
+.company_div{
+padding-top: 3rem;
+    padding-bottom:3rem;
+}
+@media screen and (max-width: 900px){
+    .company_div{
+        display: flex;
+        flex-wrap: wrap;
+}
+form{
+    flex-wrap: wrap;
+}
+}

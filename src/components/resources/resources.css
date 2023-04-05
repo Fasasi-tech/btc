@@ -1,0 +1,37 @@
+.img-1{
+    width:70%;
+    height:auto;
+}
+.resources_div{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:1rem;
+    background-color: white;
+    padding-top: 3rem;
+    padding-bottom:3rem;
+}
+.style_components{
+    padding:0 30px;
+  }
+  .get_started_button{
+    padding: 0.8rem 2.5rem;
+    background-color: black;
+    border:none;
+    margin-top: 10px;
+    color: #00df9a;
+
+  }
+  .data{
+    color:#00df9a;
+  }
+  .sidetwo p{
+    color:gray;
+  }
+  @media screen and (max-width: 900px){
+    .resources_div{
+        display:flex;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+  }

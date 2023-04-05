@@ -1,0 +1,43 @@
+.home_div{
+    background-color: black;
+    color:white;
+    height: 100vh;
+    text-align: center;
+    margin: 0 auto;
+}
+.style_components{
+    padding:0 30px;
+  }
+  .sub_header{
+   padding-top: 4rem;
+  }
+  .sub_header h1{
+    padding-bottom: 2rem;
+  }
+  button{
+    background-color: #00df9a;
+    padding:0.8rem 2.5rem;
+    border-radius: 0.5rem;
+    font-size: large;
+    font-weight: 700;
+  }
+  .gray{
+    color:gray;
+    font-size: x-large;
+  }
+  .heading{
+    font-size: large;
+    color:#00df9a;
+  }
+  .grow{
+    font-size:4rem;
+  }
+  @media screen and (max-width: 900px){
+
+  }
+  @media screen and (max-width: 600px){
+    .grow{
+      font-size: xx-large;
+  }
+  }
+  

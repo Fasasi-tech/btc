@@ -1,0 +1,49 @@
+.p_one{
+    width:5rem;
+}
+.card h1{
+    margin-bottom: 2rem;
+}
+.card h2{
+    margin-bottom: 2rem;
+}
+
+.card p{
+    margin-bottom: 1rem;
+    font-weight: 500;
+}
+.card{
+    text-align: center;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    max-width: 20rem;
+    padding:4rem;
+    flex:1;
+}
+.btn-card{
+    border-color: none;
+    outline: none;
+    background-color: #00df9a ;
+    padding:0.5rem 3.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+   
+}
+.subscription{
+    padding: 3rem 30px;
+}
+.card_div{
+    display:flex;
+    justify-content: space-between;
+    gap:1rem;
+}
+@media screen and (max-width: 900px){
+    .card_div{
+        flex-wrap: wrap;
+
+    }
+    .btn-card{
+        padding:0.5rem 1.5rem;
+    }
+}
